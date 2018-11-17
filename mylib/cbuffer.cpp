@@ -11,7 +11,7 @@ namespace mylib
   
   CBuffer::~CBuffer()
   {
-    delete _data;
+    delete [] _data;
   }
   
   int CBuffer::capacity() const
